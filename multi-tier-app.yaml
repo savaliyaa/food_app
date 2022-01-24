@@ -1,4 +1,8 @@
-
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: multi-tier-app
+---
 apiVersion: v1
 kind: Service
 metadata:
